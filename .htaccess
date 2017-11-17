@@ -1,0 +1,9 @@
+#this is for apache fall backurl rewrite
+RewriteEngine On 
+Options FollowSymLinks
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /#/$1 [L]

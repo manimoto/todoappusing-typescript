@@ -1,0 +1,25 @@
+{
+  "name": "netdo",
+  "version": "1.0.0",
+  "description": "This is a todo app for just fun",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular": "1.6.5",
+    "angular-animate": "1.6.5",
+    "angular-route": "1.5.8",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.2",
+    "typescript":"^2.5.3"
+  },
+  "author": "Manish",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-browser-sync": "^2.1.0",
+    "lite-server": "^2.3.0",
+    "connect-history-api-fallback":"^1.3.0"
+  }
+}

@@ -1,0 +1,11 @@
+https://stackoverflow.com/questions/29996145/visual-studio-code-compile-on-save
+https://www.npmjs.com/package/gulp-typescript
+https://code.visualstudio.com/docs/languages/typescript -- bad
+
+live reload and up the server via gulp-connect
+http://stephenradford.me/gulp-angularjs-and-html5mode/
+a bad guidance - open terminal in project directory and run tsc *.ts --watch
+
+
+
+//console.log(angular.toJson($scope.ninjas));
